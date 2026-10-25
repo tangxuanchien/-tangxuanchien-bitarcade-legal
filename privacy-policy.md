@@ -1,6 +1,10 @@
+---
+title: Privacy Policy
+---
+
 # Privacy Policy — BitArcade: GBA Emulator
 
-**Effective date:** 19 October 2026
+**Effective date:** 25 October 2026
 **App:** BitArcade: GBA Emulator (Android, package `com.txclabs.gba`)
 **Developer:** TXC Labs ("we", "us")
 
@@ -20,9 +24,10 @@ To work, the app keeps the following in its private storage on your phone. We ca
 | What | Why |
 |---|---|
 | Your game library: game title, game code read from the ROM header, the location of the file you picked, when you added and last played it | To show and open your games |
-| Games you download from the Discover tab | So you can play them |
-| Battery saves (`.sav`) and save states | So your progress is kept |
-| Settings: app theme, console theme, display options | To remember your preferences |
+| Sample games that come with the app, copied out of the app the first time you play them | So you can play them |
+| Games you download from the in-app game list | So you can play them |
+| Battery saves (`.sav`), save states and the automatic save made when you leave a game | So your progress is kept |
+| Settings: language, sound volume, auto save, frame skip, FPS display, console colors | To remember your preferences |
 
 When you add a game from your device, you choose the file with Android's system file picker. The app
 can read only the files you pick, and only to load them as games. It does not scan or upload your other
@@ -30,15 +35,18 @@ files.
 
 ## 3. Internet use
 
-The app uses the internet only when you open the **Discover** tab or tap **Download** there:
+The app uses the internet only in these cases:
 
-- It fetches a list of free/homebrew games (a JSON file hosted on GitHub) and downloads the game files
-  you choose from the links in that list (for example GitHub release files).
-- These requests go directly to those hosts. Like any web request, they receive your IP address and
-  basic technical information (such as the app's network library version). We do not receive this.
-  Those hosts' own privacy policies apply, for example the
-  [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
-- Downloads are checked against a checksum and saved in the app's private storage.
+- **Downloading games.** When you open "Download games" and download a game, the app fetches a list of
+  free/homebrew games (a JSON file hosted on GitHub) and the game files you choose from the links in that
+  list (for example GitHub release files). Downloads are checked against a checksum and saved in the
+  app's private storage.
+- **Links you tap.** Rate us, Privacy Policy, Terms of Use and the source-code links on the Open source
+  licenses page open in your browser or the Google Play Store app.
+
+These requests go directly to those hosts. Like any web request, they receive your IP address and basic
+technical information. We do not receive this. Those hosts' own privacy policies apply, for example the
+[GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 
 Playing games, saving and loading do not need the internet.
 
@@ -46,8 +54,8 @@ Playing games, saving and loading do not need the internet.
 
 If you have Android Backup turned on, Android may include the app's settings, game library list and
 battery saves in your device backup (for example to your Google account), so they can be restored on a
-new phone. This is handled by Android and your backup provider, not by us. Downloaded games and save
-states are not included. You can turn backup off in your device settings.
+new phone. This is handled by Android and your backup provider, not by us. You can turn backup off in
+your device settings.
 
 ## 5. Sharing
 
@@ -56,6 +64,7 @@ We do not sell, rent or share your information, because we do not collect it.
 ## 6. Keeping and deleting data
 
 - Removing a downloaded game from your library deletes its file.
+- Turning off Auto save stops new automatic saves.
 - Clearing the app's storage in Android settings, or uninstalling the app, deletes everything the app
   stored on your device.
 
