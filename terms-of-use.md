@@ -92,4 +92,4 @@ after a change means you accept the new terms.
 
 ## 12. Contact
 
-Questions about these terms: **[add your support email here]**
+Questions about these terms: **tangxuanchien511@gmail.com**
