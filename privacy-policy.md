@@ -84,4 +84,4 @@ noted in the app's release notes.
 
 ## 10. Contact
 
-Questions about this policy: **[add your support email here]**
+Questions about this policy: **tangxuanchien511@gmail.com**
