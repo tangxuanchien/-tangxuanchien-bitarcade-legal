@@ -50,7 +50,7 @@ GitHub), whose terms also apply.
 ## 5. BitArcade Premium
 
 BitArcade Premium is an optional subscription bought through Google Play. It currently unlocks more save-state
-slots per game (10 instead of 3). Everything else in the app stays free.
+slots per game (10 instead of 3). Premium also removes all ads. Everything else in the app stays free.
 
 - **Plans and price.** Weekly and yearly plans are offered. The price, billing period and any free
   trial are shown in the app and in Google Play before you confirm.
@@ -64,13 +64,23 @@ slots per game (10 instead of 3). Everything else in the app stays free.
 - **Changes.** We may add features to Premium or change prices for future billing periods. Google Play tells
   you before a price increase applies.
 
-## 6. Trademarks
+## 6. Advertising
+
+The free version of the app shows ads from Google AdMob. BitArcade Premium turns ads off.
+
+- Rewarded ads are optional. If you watch one, the reward (extra save slots) is kept on your device and
+  may be lost if you clear the app's data.
+- Ads come from third parties. We are not responsible for the content of ads or for the products and
+  services they promote.
+- How ads use your information is described in the [Privacy Policy](privacy-policy.html).
+
+## 7. Trademarks
 
 Game Boy, Game Boy Color, Game Boy Advance and NES are trademarks of Nintendo. Other names may be
 trademarks of their owners. BitArcade is an independent app and is **not affiliated with, endorsed by or
 sponsored by Nintendo** or any other console maker. The console designs in the app are original artwork.
 
-## 7. Open-source software
+## 8. Open-source software
 
 - Game Boy Advance, Game Boy and Game Boy Color games run on [mGBA](https://mgba.io), used under the
   Mozilla Public License 2.0.
@@ -81,32 +91,32 @@ sponsored by Nintendo** or any other console maker. The console designs in the a
 
 Their licenses and source links are listed on the Open source licenses page in Settings.
 
-## 8. Acceptable use
+## 9. Acceptable use
 
 Do not reverse engineer the app to remove its license notices, use it to break the law, or interfere with
 the services the app connects to.
 
-## 9. No warranty
+## 10. No warranty
 
 The app is provided **"as is"** and "as available", without warranties of any kind. Emulation is not
 perfect: some games may not run, may run with errors, or may lose progress. Keep copies of saves that
 matter to you.
 
-## 10. Limitation of liability
+## 11. Limitation of liability
 
 To the fullest extent allowed by law, we are not liable for any indirect, incidental or consequential
 damages, or for loss of data, saves or progress, arising from your use of the app. Nothing in these terms
 limits rights you have under consumer laws that cannot be excluded.
 
-## 11. Privacy
+## 12. Privacy
 
 How the app handles information is described in the [Privacy Policy](privacy-policy.html).
 
-## 12. Changes
+## 13. Changes
 
 We may update these terms. We will update this page and its effective date; continuing to use the app
 after a change means you accept the new terms.
 
-## 13. Contact
+## 14. Contact
 
 Questions about these terms: **tangxuanchien511@gmail.com**
