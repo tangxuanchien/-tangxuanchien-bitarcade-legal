@@ -44,6 +44,12 @@ personalised ads. We do not receive this data. Learn more:
 - [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
 - [AdMob partners list](https://support.google.com/admob/answer/9012903)
 
+**App configuration (Google Firebase Remote Config).** The app uses Google Firebase Remote Config to download a
+small configuration from Google's Firebase servers: whether ads are on and which ad units to use. To do this,
+Firebase uses a Firebase installation ID (a random identifier for this app install, not the advertising ID),
+your IP address, and basic app and device information (app version, platform, language). It contains no personal
+information that you type into the app. Learn more: [Firebase privacy information](https://firebase.google.com/support/privacy)
+
 **Consent.** In the European Economic Area, the UK, Switzerland and some US states, Google's User
 Messaging Platform (UMP) consent form is shown before ads load.
 
@@ -85,6 +91,7 @@ The app uses the internet only in these cases:
 - **Google Play.** To show Premium prices and confirm purchases, the app talks to the Google Play app on
   your device, which contacts Google's servers. Manage subscription opens Google Play.
 - **Ads.** In the free version, the app sends ad requests to Google's ad servers and receives ads from them.
+- **Ad settings.** The app checks Firebase Remote Config (Google) for the ad settings.
 - **Share and feedback.** Share app opens Android's share sheet with a link to the app. Send feedback opens
   your email app addressed to us; we receive only what you choose to send.
 
@@ -104,7 +111,8 @@ your device settings.
 ## 5. Sharing
 
 We do not collect or sell personal information ourselves. The Google AdMob SDK in the free version shares
-the data described in section 1 with Google and its ad partners.
+the data described in section 1 with Google and its ad partners, and Google Firebase Remote Config receives the
+Firebase-related data described in section 1.
 
 ## 6. Keeping and deleting data
 
