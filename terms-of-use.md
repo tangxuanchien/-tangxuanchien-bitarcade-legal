@@ -4,7 +4,7 @@ title: Terms of Use
 
 # Terms of Use — BitArcade: GBA Emulator
 
-**Effective date:** 25 October 2026
+**Effective date:** 8 November 2026
 **App:** BitArcade: GBA Emulator (Android, package `com.txclabs.gba`)
 **Developer:** TXC Labs ("we", "us")
 
@@ -47,13 +47,30 @@ author and is offered under the license shown in the app. We do not create, own 
 the list, and we may add or remove entries at any time. Downloads come from third-party hosts (such as
 GitHub), whose terms also apply.
 
-## 5. Trademarks
+## 5. BitArcade Premium
+
+BitArcade Premium is an optional subscription bought through Google Play. It currently unlocks more save-state
+slots per game (10 instead of 3). Everything else in the app stays free.
+
+- **Plans and price.** Weekly, monthly and yearly plans are offered. The price, billing period and any free
+  trial are shown in the app and in Google Play before you confirm.
+- **Renewal.** Payment is charged to your Google Play account. The subscription renews automatically at the
+  end of each period unless you cancel it at least 24 hours before the period ends.
+- **Cancelling.** You can cancel any time in Google Play (Payments & subscriptions, or Manage subscription in
+  the app). You keep Premium until the end of the period you paid for.
+- **Free trial.** If a plan has a free trial and you do not cancel before it ends, the paid subscription starts
+  automatically.
+- **Refunds.** Refunds follow Google Play's refund policy.
+- **Changes.** We may add features to Premium or change prices for future billing periods. Google Play tells
+  you before a price increase applies.
+
+## 6. Trademarks
 
 Game Boy, Game Boy Color, Game Boy Advance and NES are trademarks of Nintendo. Other names may be
 trademarks of their owners. BitArcade is an independent app and is **not affiliated with, endorsed by or
 sponsored by Nintendo** or any other console maker. The console designs in the app are original artwork.
 
-## 6. Open-source software
+## 7. Open-source software
 
 - Game Boy Advance, Game Boy and Game Boy Color games run on [mGBA](https://mgba.io), used under the
   Mozilla Public License 2.0.
@@ -64,32 +81,32 @@ sponsored by Nintendo** or any other console maker. The console designs in the a
 
 Their licenses and source links are listed on the Open source licenses page in Settings.
 
-## 7. Acceptable use
+## 8. Acceptable use
 
 Do not reverse engineer the app to remove its license notices, use it to break the law, or interfere with
 the services the app connects to.
 
-## 8. No warranty
+## 9. No warranty
 
 The app is provided **"as is"** and "as available", without warranties of any kind. Emulation is not
 perfect: some games may not run, may run with errors, or may lose progress. Keep copies of saves that
 matter to you.
 
-## 9. Limitation of liability
+## 10. Limitation of liability
 
 To the fullest extent allowed by law, we are not liable for any indirect, incidental or consequential
 damages, or for loss of data, saves or progress, arising from your use of the app. Nothing in these terms
 limits rights you have under consumer laws that cannot be excluded.
 
-## 10. Privacy
+## 11. Privacy
 
 How the app handles information is described in the [Privacy Policy](privacy-policy.html).
 
-## 11. Changes
+## 12. Changes
 
 We may update these terms. We will update this page and its effective date; continuing to use the app
 after a change means you accept the new terms.
 
-## 12. Contact
+## 13. Contact
 
 Questions about these terms: **tangxuanchien511@gmail.com**
