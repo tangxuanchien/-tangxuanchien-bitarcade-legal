@@ -4,18 +4,24 @@ title: Privacy Policy
 
 # Privacy Policy — BitArcade: GBA Emulator
 
-**Effective date:** 25 October 2026
+**Effective date:** 8 November 2026
 **App:** BitArcade: GBA Emulator (Android, package `com.txclabs.gba`)
 **Developer:** TXC Labs ("we", "us")
 
 This policy explains what information BitArcade handles, where it is kept, and the choices you have.
 In short: **BitArcade has no accounts, no ads, no analytics and no tracking. Your games, saves and
-settings stay on your device.**
+settings stay on your device.** If you buy BitArcade Premium, the purchase is handled by Google Play.
 
 ## 1. Information we collect
 
 We do not collect personal information. We do not run servers that receive data from the app, and the
 app contains no advertising, analytics, crash-reporting or tracking SDKs.
+
+**BitArcade Premium (optional subscription).** Purchases are made through Google Play Billing. Google Play
+handles the payment; we never receive your name, email address or payment details. The app only receives
+the purchase status from Google Play on your device (which Premium product, whether it is active, and a
+purchase token it uses to confirm the purchase) so it can unlock Premium. Google's
+[Privacy Policy](https://policies.google.com/privacy) applies to the payment itself.
 
 ## 2. Information stored only on your device
 
@@ -28,6 +34,7 @@ To work, the app keeps the following in its private storage on your phone. We ca
 | Games you download from the in-app game list | So you can play them |
 | Battery saves (`.sav`), save states and the automatic save made when you leave a game | So your progress is kept |
 | Settings: language, sound volume, auto save, frame skip, FPS display, console colors | To remember your preferences |
+| Whether Premium is active (a yes/no flag, checked again with Google Play when the app starts) | To unlock Premium features such as extra save slots offline |
 
 When you add a game from your device, you choose the file with Android's system file picker. The app
 can read only the files you pick, and only to load them as games. It does not scan or upload your other
@@ -43,6 +50,10 @@ The app uses the internet only in these cases:
   app's private storage.
 - **Links you tap.** Rate us, Privacy Policy, Terms of Use and the source-code links on the Open source
   licenses page open in your browser or the Google Play Store app.
+- **Google Play.** To show Premium prices and confirm purchases, the app talks to the Google Play app on
+  your device, which contacts Google's servers. Manage subscription opens Google Play.
+- **Share and feedback.** Share app opens Android's share sheet with a link to the app. Send feedback opens
+  your email app addressed to us; we receive only what you choose to send.
 
 These requests go directly to those hosts. Like any web request, they receive your IP address and basic
 technical information. We do not receive this. Those hosts' own privacy policies apply, for example the
