@@ -52,7 +52,7 @@ GitHub), whose terms also apply.
 BitArcade Premium is an optional subscription bought through Google Play. It currently unlocks more save-state
 slots per game (10 instead of 3). Everything else in the app stays free.
 
-- **Plans and price.** Weekly, monthly and yearly plans are offered. The price, billing period and any free
+- **Plans and price.** Weekly and yearly plans are offered. The price, billing period and any free
   trial are shown in the app and in Google Play before you confirm.
 - **Renewal.** Payment is charged to your Google Play account. The subscription renews automatically at the
   end of each period unless you cancel it at least 24 hours before the period ends.
