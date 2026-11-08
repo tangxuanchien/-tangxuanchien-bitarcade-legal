@@ -1,4 +1,126 @@
 {
   "version": 1,
-  "games": []
+  "games": [
+    {
+      "id": "ucity",
+      "title": "µCity",
+      "system": "gbc",
+      "description": "A city-building simulation for Game Boy Color. Zone land, build power and transport, and grow your city. Source code: https://github.com/AntonioND/ucity",
+      "author": "Antonio Niño Díaz (AntonioND)",
+      "license": "GPL-3.0-or-later (code) · CC-BY-SA-4.0 (graphics and music)",
+      "url": "https://github.com/AntonioND/ucity/releases/download/v1.3/ucity.gbc",
+      "sizeBytes": 131072,
+      "sha256": "9422ee2ca7b7ea1d46b58b2a429fff3f354dfd3e732dee1e7ae6220f148ce6e0"
+    },
+    {
+      "id": "libbet",
+      "title": "Libbet and the Magic Floor",
+      "system": "gb",
+      "description": "A puzzle game where Libbet rolls around a magic floor and flips every tile to the right pattern.",
+      "author": "Damian Yerrick (pinobatch)",
+      "license": "zlib",
+      "url": "https://github.com/pinobatch/libbet/releases/download/v0.08/libbet.gb",
+      "sizeBytes": 32768,
+      "sha256": "3607412031c8287cf878299ce96e581e85b852dde703806343b95576fa3ff1a9"
+    },
+    {
+      "id": "gbcorp",
+      "title": "GBcorp",
+      "system": "gb",
+      "description": "A small Game Boy game that rewards you for playing it on several different console models.",
+      "author": "Dr. Ludos",
+      "license": "MIT",
+      "url": "https://github.com/drludos/GBcorp/releases/download/1.0/gbcorp.gb",
+      "sizeBytes": 32768,
+      "sha256": "5a39926a23ff50448859b2d924d8bba5a8c68db91563783f0c593a3aa8e7bad3"
+    },
+    {
+      "id": "unstoppable-knight",
+      "title": "Unstoppable Knight",
+      "system": "gb",
+      "description": "A short and simple Game Boy action game where a knight keeps charging forward.",
+      "author": "Rafagars",
+      "license": "MIT",
+      "url": "https://github.com/Rafagars/Unstoppable-Knight-GB/releases/download/2.2.2/knight.gb",
+      "sizeBytes": 32768,
+      "sha256": "191c7fad34e643ab5f1083cd8f1a0582a4cef2bfee068bf36e18805f8bc40aaf"
+    },
+    {
+      "id": "rhythm-land",
+      "title": "Rhythm Land",
+      "system": "gb",
+      "description": "A collection of rhythm mini-games for the Game Boy: keep the beat and press at the right moment.",
+      "author": "martendo and Adrian-kwok (sinusoid-studios)",
+      "license": "MIT",
+      "url": "https://github.com/sinusoid-studios/rhythm-land/releases/download/v1.0.1/rhythm-land.gb",
+      "sizeBytes": 131072,
+      "sha256": "820b4e543bc1afb80b66be81aca64f429e97c8c0f4b5377350353788381ab160"
+    },
+    {
+      "id": "snakeboy",
+      "title": "SnakeBoy",
+      "system": "gb",
+      "description": "A minimalistic snake game for the Game Boy. Source code: https://github.com/sebb01/SnakeBoy",
+      "author": "sebb01",
+      "license": "GPL-2.0",
+      "url": "https://github.com/sebb01/SnakeBoy/releases/download/v1.2.1/SnakeBoy.gb",
+      "sizeBytes": 65536,
+      "sha256": "d1d06310323dfd842dee7a304961cd47d5da58127dc65662b6697e0572a0b39c"
+    },
+    {
+      "id": "cascade7",
+      "title": "CASCADE7",
+      "system": "gba",
+      "description": "A number-drop puzzle game for the Game Boy Advance.",
+      "author": "Mick Schroeder",
+      "license": "MIT",
+      "url": "https://github.com/mick-schroeder/gba-cascade7/releases/download/v1.0.0/CASCADE7.gba",
+      "sizeBytes": 224924,
+      "sha256": "24311677e8c24cf1e34f854ec75d706f2f08c0798f4bd8a781a600e439dcf291"
+    },
+    {
+      "id": "falling",
+      "title": "Falling",
+      "system": "nes",
+      "description": "A simple falling-and-dodging NES game written in 6502 assembly.",
+      "author": "xram64",
+      "license": "MIT",
+      "url": "https://raw.githubusercontent.com/xram64/falling-nes/52dcb8a951200562e696dfc2aba5d4d14edd0078/falling.nes",
+      "sizeBytes": 40976,
+      "sha256": "e22b947542c2d7e595bf84725b333be7af8189c5965b9c53e356a249c7d79943"
+    },
+    {
+      "id": "nes-runner",
+      "title": "Runner",
+      "system": "nes",
+      "description": "An endless runner for the NES.",
+      "author": "zorchenhimer",
+      "license": "MIT",
+      "url": "https://github.com/zorchenhimer/nes-runner/releases/download/v1/runner.nes",
+      "sizeBytes": 81936,
+      "sha256": "1a67bfabdde2d96eacb04eb7f9d17e8da6c082d4976c318315fe31e2d19b4384"
+    },
+    {
+      "id": "stallar",
+      "title": "Stallar",
+      "system": "nes",
+      "description": "An NES game made for the Ludum Dare 50 game jam.",
+      "author": "Wendel Scardua",
+      "license": "MIT",
+      "url": "https://github.com/wendelscardua/stallar/releases/download/0.1.0/stallar.nes",
+      "sizeBytes": 73744,
+      "sha256": "b5584e142db178fc356b70d635cb290f250a85569461b5915969617740c551f0"
+    },
+    {
+      "id": "file-fixers",
+      "title": "File Fixers",
+      "system": "nes",
+      "description": "A computer-themed RPG for the NES.",
+      "author": "Wendel Scardua",
+      "license": "MIT",
+      "url": "https://github.com/wendelscardua/file-fixers/releases/download/0.1.0/file-fixers.nes",
+      "sizeBytes": 81936,
+      "sha256": "ba6c88a13bb63f180e5e542258c53e5676e3f1514898bfd16aba4da43c34cc34"
+    }
+  ]
 }
