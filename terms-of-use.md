@@ -4,7 +4,7 @@ title: Terms of Use
 
 # Terms of Use — BitArcade: GBA Emulator
 
-**Effective date:** 8 November 2026
+**Effective date:** 10 November 2026
 **App:** BitArcade: GBA Emulator (Android, package `com.txclabs.gba`)
 **Developer:** TXC Labs ("we", "us")
 
@@ -45,12 +45,15 @@ each game's source code.
 The in-app download list shows free and homebrew games made by other people. Each game belongs to its
 author and is offered under the license shown in the app. We do not create, own or check every game in
 the list, and we may add or remove entries at any time. Downloads come from third-party hosts (such as
-GitHub), whose terms also apply.
+GitHub), whose terms also apply. The download screen also links to third-party homebrew websites. We do
+not run those sites, their own terms apply, and you are responsible for checking that you have the right to
+use any file you get there.
 
 ## 5. BitArcade Premium
 
-BitArcade Premium is an optional subscription bought through Google Play. It currently unlocks more save-state
-slots per game (10 instead of 3). Premium also removes all ads. Everything else in the app stays free.
+BitArcade Premium is an optional subscription bought through Google Play. It currently gives unlimited save-state
+slots per game (without Premium you get 3, plus up to 2 more you can unlock by watching rewarded ads).
+Premium also removes all ads. Everything else in the app stays free.
 
 - **Plans and price.** Weekly and yearly plans are offered. The price, billing period and any free
   trial are shown in the app and in Google Play before you confirm.
@@ -68,7 +71,7 @@ slots per game (10 instead of 3). Premium also removes all ads. Everything else 
 
 The free version of the app shows ads from Google AdMob. BitArcade Premium turns ads off.
 
-- Rewarded ads are optional. If you watch one, the reward (extra save slots) is kept on your device and
+- Rewarded ads are optional. If you watch one, the reward (up to 2 extra save slots) is kept on your device and
   may be lost if you clear the app's data.
 - Ads come from third parties. We are not responsible for the content of ads or for the products and
   services they promote.

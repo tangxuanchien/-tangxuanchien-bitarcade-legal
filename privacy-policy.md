@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # Privacy Policy — BitArcade: GBA Emulator
 
-**Effective date:** 8 November 2026
+**Effective date:** 10 November 2026
 **App:** BitArcade: GBA Emulator (Android, package `com.txclabs.gba`)
 **Developer:** TXC Labs ("we", "us")
 
@@ -37,8 +37,10 @@ Google Mobile Ads SDK. The ads are:
 
 To show ads, measure them and prevent fraud, the SDK collects and shares with Google your device's
 advertising ID (the SDK adds the Android `AD_ID` permission), your IP address, device and app
-information, and how you interact with ads. Where you have consented, Google may use this to show
-personalised ads. We do not receive this data. Learn more:
+information, and how you interact with ads. The SDK also declares Android's Privacy Sandbox ad permissions
+(`ACCESS_ADSERVICES_AD_ID`, `ACCESS_ADSERVICES_ATTRIBUTION` and `ACCESS_ADSERVICES_TOPICS`), so on devices
+that support it Google may use Android's ad APIs (such as Topics and attribution) for ads. Where you have
+consented, Google may use this to show personalised ads. We do not receive this data. Learn more:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
@@ -58,6 +60,7 @@ Messaging Platform (UMP) consent form is shown before ads load.
 - Change your ad consent choice any time in Settings, "Ads privacy settings". This row only appears
   where consent is required.
 - Reset or delete your advertising ID in Android settings (Settings, Privacy or Google, Ads).
+- Manage Android's ad privacy settings (such as Topics and ad measurement) in Android settings (Privacy, Ads or Ad privacy).
 - Buy BitArcade Premium, which turns all ads off.
 
 ## 2. Information stored only on your device
@@ -68,7 +71,7 @@ To work, the app keeps the following in its private storage on your phone. We ca
 |---|---|
 | Your game library: game title, game code read from the ROM header, the location of the file you picked, when you added and last played it | To show and open your games |
 | Sample games that come with the app, copied out of the app the first time you play them | So you can play them |
-| Games you download from the in-app game list | So you can play them |
+| Games you download from the in-app game list, and each game's cover image saved next to it | So you can play them and Home can show them offline |
 | Battery saves (`.sav`), save states and the automatic save made when you leave a game | So your progress is kept |
 | Settings: language, sound volume, auto save, frame skip, FPS display, console colors | To remember your preferences |
 | Your ad consent choice, and how many extra save slots you unlocked with rewarded ads | To respect your choice and keep the slots you earned |
@@ -82,12 +85,14 @@ files.
 
 The app uses the internet only in these cases:
 
-- **Downloading games.** When you open "Download games" and download a game, the app fetches a list of
-  free/homebrew games (a JSON file hosted on GitHub) and the game files you choose from the links in that
-  list (for example GitHub release files). Downloads are checked against a checksum and saved in the
-  app's private storage.
+- **Downloading games.** When you open "Download games", the app loads the list of free/homebrew games
+  (a JSON file) and each game's cover image from the app's site on GitHub Pages
+  (tangxuanchien.github.io). The game files you choose come from each game's author (their GitHub release
+  or repository). Downloads are checked against a checksum and saved in the app's private storage.
 - **Links you tap.** Rate us, Privacy Policy, Terms of Use and the source-code links on the Open source
-  licenses page open in your browser or the Google Play Store app.
+  licenses page open in your browser or the Google Play Store app. The "More free games on the web" card in
+  Download games opens free homebrew sites (Homebrew Hub and itch.io) in your browser. We do not control
+  those sites, and their own privacy policies apply.
 - **Google Play.** To show Premium prices and confirm purchases, the app talks to the Google Play app on
   your device, which contacts Google's servers. Manage subscription opens Google Play.
 - **Ads.** In the free version, the app sends ad requests to Google's ad servers and receives ads from them.
@@ -103,8 +108,8 @@ Playing games, saving and loading do not need the internet.
 
 ## 4. Android backup
 
-If you have Android Backup turned on, Android may include the app's settings, game library list and
-battery saves in your device backup (for example to your Google account), so they can be restored on a
+If you have Android Backup turned on, Android may include the app's settings (including the Premium flag and the
+save slots you unlocked with ads), the game library list and battery saves in your device backup (for example to your Google account), so they can be restored on a
 new phone. This is handled by Android and your backup provider, not by us. You can turn backup off in
 your device settings.
 
@@ -116,7 +121,8 @@ Firebase-related data described in section 1.
 
 ## 6. Keeping and deleting data
 
-- Removing a downloaded game from your library deletes its file.
+- Deleting a downloaded game (Delete in Download games, or removing it from Home) deletes its file and
+  cover image. Your saves stay on your device.
 - Turning off Auto save stops new automatic saves.
 - Clearing the app's storage in Android settings, or uninstalling the app, deletes everything the app
   stored on your device.
